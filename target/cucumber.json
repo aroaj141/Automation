@@ -1,0 +1,153 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "verifying adactinhotel login with invalid details",
+        "description": "",
+        "id": "verifying-adactin-hotel-details;verifying-adactinhotel-login-with-invalid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10211848400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on adactinHOtel Login page",
+            "match": {
+              "location": "StepDefinitionClass.a()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1110010600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should enter \"aroakash001\"  ,\"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aroakash001\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"123456789\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitionClass.i_should_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1007705400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i should search the \"Paris\",\"Hotel Creek\",\"Double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paris\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefinitionClass.i_should_search_the(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728896600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should select the hotel",
+            "match": {
+              "location": "StepDefinitionClass.i_should_select_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529524100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should enter \"Aro\",\"Akash\",\"chennai\",\"\u003cCcNum \u003e\",\"VISA\",\"May\",\"2022\",\"231\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aro\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Akash\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"chennai\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"\u003cCcNum \u003e\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"231\"",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinitionClass.i_should_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should verify success login message",
+            "match": {
+              "location": "StepDefinitionClass.i_should_verify_success_login_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying adactin hotel details",
+    "description": "",
+    "id": "verifying-adactin-hotel-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/cucumber.feature",
+    "tags": []
+  }
+]

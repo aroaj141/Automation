@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.00202">
+<testcase classname="verifying adactin hotel details" name="verifying adactinhotel login with invalid details" time="0.00202">
+<system-out><![CDATA[Given I am on adactinHOtel Login page.......................................skipped
+When I should enter "aroakash001"  ,"123456789".............................skipped
+And i should select the "<Location>","< hotels >",""........................skipped
+And I should click login button.............................................skipped
+Then I should verify success login message..................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
